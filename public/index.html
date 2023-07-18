@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Este es mi primer Chat</h1>
+    <div id="divMensajes"></div>
+    <form onsubmit="return addMensajes(this)">
+        <input type="text" id="user" placeholder="Ingresa tu nombre">
+        <input type="text" id="text" placeholder="Ingresa tu mensaje">
+        <input type="submit" value="Enviar!">
+
+    </form>
+</body>
+</html>
