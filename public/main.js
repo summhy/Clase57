@@ -1,6 +1,6 @@
-let socket = io.connection("http://localhost:3000",{forceNew:true})
+let socket = io.connect("http://localhost:3000",{forceNew:true})
 
-socket.on("messages", (data)=>{
+socket.on("mensajes", (data)=>{
     render(data);
 })
 
