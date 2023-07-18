@@ -22,4 +22,4 @@ io.on("connection", (socket)=>{
 })                
 
 
-app.listen(3000, ()=> console.log("servidor puerto 3000"));
+server.listen(3000, ()=> console.log("servidor puerto 3000"));
